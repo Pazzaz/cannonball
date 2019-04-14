@@ -46,18 +46,9 @@ $$
 Now we can examine (2) but with $P(n, s)=S(3p^2-2, 3p+2)$.
 \begin{equation*}
 \begin{split}
-n &= \frac{\sqrt{8(s-2)S(3p^2-2, 3p+2)+(s-4)^2}+(s-4)}{2(s-2)}\\&= \frac{\sqrt{324p^8-648p^6+108p^5+396p^4-108p^3-63p^2+12p+4}+3p-2}{6p}
-\end{split}
-\end{equation*}
-Now we prove the numerator is divisible by $6p$.
-\begin{equation*}
-\begin{split}
-&\sqrt{324p^8-648p^6+108p^5+396p^4-108p^3-63p^2+12p+4}+3p-2\\
-&\equiv\sqrt{3p^2+4}+3p-2 \\
-&\equiv\sqrt{9p^2-12p+4}+3p-2 \\
-&\equiv\sqrt{(-3p+2)^2}+3p-2 \\
-&\equiv-3p+2+3p-2\quad(mod\ 6p)\\
-&=0
+n &= \frac{\sqrt{8(s-2)S(3p^2-2, 3p+2)+(s-4)^2}+(s-4)}{2(s-2)}\\&= \frac{\sqrt{324p^8-648p^6+108p^5+396p^4-108p^3-63p^2+12p+4}+3p-2}{6p} \\
+&=\frac{18p^4-18p^2+6p}{6p}\\
+&=3p^3-3p+1
 \end{split}
 \end{equation*}
 Therefore, the expression is always an integer, which means that n is always an integer. And so $S(3p^2-2, 3p+2)$ is always a cannonball number. $\blacksquare$
