@@ -20,7 +20,7 @@ int main(void)
     unsigned long Sm2 = S-2;
     unsigned long Sm4 = S-4;
 
-    int array_size = 1000;
+    int array_size = 100;
     printf("array size: %d\n", array_size);
     mpz_t *large;
     large = malloc(array_size * sizeof(mpz_t));
